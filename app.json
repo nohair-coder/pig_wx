@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/station/station",
+    "pages/pig/pig",
+    "pages/backfat/backfat"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "妊娠母猪饲喂小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#cccccc",
+    "selectedColor": "#409EFF",
+    "backgroundColor": "#fbf9fe",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/station/station",
+        "text": "饲喂站",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_s.png"
+      },
+      {
+        "pagePath": "pages/pig/pig",
+        "text": "采食记录",
+        "iconPath": "images/pig.png",
+        "selectedIconPath": "images/pig_s.png"
+      },
+      {
+        "pagePath": "pages/backfat/backfat",
+        "text": "背膘厚",
+        "iconPath": "images/backfat.png",
+        "selectedIconPath": "images/backfat_s.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

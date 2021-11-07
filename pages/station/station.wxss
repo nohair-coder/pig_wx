@@ -1,0 +1,33 @@
+/* pages/nodes/nodes.wxss */
+.father{
+  width: 700rpx;
+  height: 500rpx;
+  border-radius:20rpx;
+  margin: 50rpx auto;
+  text-align: center;
+  box-shadow:2px 2px 5px #000;
+  background-color: #fbf9fe;
+}
+.id{
+  color:#409EFF;
+  font-size: 50rpx;
+  line-height: 150rpx;
+}
+.status{
+  text-align: center;
+  height: 100rpx;
+  font-size: 50rpx;
+  /* background-color: skyblue; */
+}
+.num{
+  color:black;
+  text-align: center;
+  height: 100rpx;
+  font-size: 40rpx;
+}
+.down{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50rpx;
+}

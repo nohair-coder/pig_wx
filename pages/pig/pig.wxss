@@ -1,0 +1,32 @@
+.nodeSection{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top:25rpx;
+  width: 65%;
+  font-size: 30rpx;
+}
+.nodeSelect{
+  margin: 0 auto;
+  width: 65%;
+  height: 50rpx;
+  line-height: 50rpx;
+  border: 2px solid #000;
+  border-radius:20rpx;
+  border-color: #c6c7cb;
+  font-size: 30rpx;
+  text-align: center;
+}
+.father{
+  width: 700rpx;
+  height: 250rpx;
+  border-radius:20rpx;
+  margin: 50rpx auto;
+  text-align: center;
+  box-shadow:2px 2px 5px #000;
+  background-color: #fbf9fe;
+  font-size: 35rpx;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+}

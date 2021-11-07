@@ -1,0 +1,16 @@
+<!-- logs.wxml -->
+<view style="height:100%;">
+  <view class="nodeSection">
+    <text>饲喂站选择:</text>
+    <view class="nodeSelect">
+      <picker bindchange="bindNodeChange" value="{{nodeIndex}}" range="{{nodeArray}}">
+        <view class="picker">
+          <text style="color:#fa531c">{{nodeArray[nodeIndex]}}</text>
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class="item" wx:for="{{pigArray}}" wx:key='index'>
+    <text>母猪<text style="color:#409EFF">{{item}}</text>的背膘厚是<text style="color:#67C23A">{{backfatItems[item]}}</text>mm</text>
+  </view>
+</view>

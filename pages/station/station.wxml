@@ -1,0 +1,15 @@
+<view>
+  <view class="father" wx:for="{{stationArray}}" wx:key="index">
+    <text class="id">{{item.node}}</text>
+    <text class="status" style="color:{{item.status===0?'#F56C6C':'#67C23A'}}">
+      {{item.status===0?'已关机':'运行中'}}
+    </text>
+    <text class="num">
+      站内母猪数量：<text style="color:#67C23A">{{item.pigs.length}}</text>
+    </text>
+    <view class="down">
+      <button class="mini-btn" type="primary" size="mini">开机</button>
+      <button class="mini-btn" type="warn" size="mini">关机</button>
+    </view>
+  </view>
+</view>

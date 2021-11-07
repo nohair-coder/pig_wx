@@ -1,0 +1,33 @@
+<view>
+  <view class="nodeSection">
+    <text>饲喂站选择:</text>
+    <view class="nodeSelect">
+      <picker bindchange="bindNodeChange" value="{{nodeIndex}}" range="{{nodeArray}}">
+        <view class="picker">
+          <text style="color:#fa531c">{{nodeArray[nodeIndex]}}</text>
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class="nodeSection">
+    <text>电子耳标号:</text>
+    <view class="nodeSelect">
+      <picker bindchange="bindPigChange" value="{{pigIndex}}" range="{{pigArray}}">
+        <view class="picker">
+          <text style="color:#fa531c">{{pigArray[pigIndex]}}</text>
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class="father" wx:for="{{intake}}" wx:key="index">
+    <view class="item">
+      开始时间：<text style="color:#409EFF">{{item.start}}</text>
+    </view>
+    <view class="item">
+      结束时间：<text style="color:#409EFF">{{item.end}}</text>
+    </view>
+    <view class="item">
+      采食量：<text style="color:#67C23A">{{item.intake}}</text> 克
+    </view>
+  </view>
+</view>
